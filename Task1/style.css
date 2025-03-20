@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+.Task-add{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+#Tasks{
+    display: flex;
+    flex-wrap: wrap;
+}
+.task-item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+  
