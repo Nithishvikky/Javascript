@@ -19,29 +19,30 @@ A simple to-do list app that allows users to add, edit, and delete tasks. Tasks 
 - CSS
 - JavaScript (DOM Manipulation & Local Storage)
 
-## New things learned
-- `LocalStorage` - Brushed up the concept and methods **setItem(),getItem(),removeItem() and clear()**. 
-- `DOM Manipulation` - Studied how to Manipulate the DOM by using JS. I used to work in **React**. Now I understood the **DOM** Concept and how it works.
-- `Array Methods` - There are plenty of array functions So I grasp some of them which is more important such as **push(),splice(),forEach(),map() and filter()**.
-- `Template Literals` - Using **${}** to dynamically insert values into HTML.
+## New Things Learned
+#### **LocalStorage** – Brushed up on the concept and methods:  
+  - `setItem()`, `getItem()`, `removeItem()`, and `clear()`.  
+#### **DOM Manipulation** – Learned how to manipulate the DOM using JavaScript.  
+#### **Array Methods** – Focused on key methods:  
+  - `push()`, `splice()`, `forEach()`, `map()`, and `filter()`.  
+#### **Template Literals** – Used **`${}`** to dynamically insert values into HTML.
 
 ## Outputs
 
-### 1. Task input and Task list
-
+#### 1. Task input and Task list
 ![Task List](Outputs/Tasks.png)
 
-### 2. Deleting the added task
-- I've also printed it in console, you can verify it.
+#### 2. Deleting the added task
+- Also printed in the console for verification.
 
 ![Deleted Task](Outputs/Delete.png)
 
-### 3. Editing the added task
-- I've been using prompt to edit the tasks
+#### 3. Editing the added task
+- Used a prompt to edit tasks.
 
 ![Editing Task](Outputs/Editing.png)
 
-### 4. After editing of the task
-- I've also printed it in console, you can verify it.
+#### 4. After editing the task
+- Also printed in the console for verification.
 
 ![Edited Task](Outputs/Edited.png)
