@@ -11,6 +11,7 @@ function saveTasks() {
 }
 
 function tasksLoad(){
+    console.log(tasks); // To show in console
     Tasklist.innerHTML="";
     tasks.forEach((task,index)=>{
         let div = document.createElement("div");
@@ -22,8 +23,9 @@ function tasksLoad(){
          `;
          Tasklist.appendChild(div);
     });
-
 }
+
+//Adding Tasks
 addbtn.addEventListener("click",()=>{
     let task = inputbar.value;
     tasks.push(task);
@@ -32,12 +34,14 @@ addbtn.addEventListener("click",()=>{
     tasksLoad();
 });
 
+//Deleting Tasks
 function deleteTask(taskIndex){
     tasks.splice(taskIndex,1);
     saveTasks();
     tasksLoad();
 }
 
+//Editing Tasks
 function edit(taskIndex){
     const newTask = prompt("Edit Task:",tasks[taskIndex]);
     if(newTask !== null){
@@ -47,4 +51,4 @@ function edit(taskIndex){
     }
 }
 
-tasksLoad();
+tasksLoad();//Initial Render to update the DOM
