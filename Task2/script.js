@@ -54,6 +54,7 @@ function calculate(a,secondNumber,op){
 
 function place(n){
     if(isNaN(Number(n))){
+        console.log(n);//To show operator in console
         if(n==="c"){
            res = 0;
            temp = "";
@@ -67,10 +68,10 @@ function place(n){
             document.getElementById("inputbox").value = op;
         }
         else{
-            console.log(temp);
+            console.log(temp);//To show the number in console
             calculate(res,Number(temp),op);
         }
-        console.log(res);
+        console.log(res);//To show result in console
         temp="";
     }
     else{
