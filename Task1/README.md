@@ -20,12 +20,16 @@ A simple to-do list app that allows users to add, edit, and delete tasks. Tasks 
 - JavaScript (DOM Manipulation & Local Storage)
 
 ## New Things Learned
-#### **LocalStorage** – Brushed up on the concept and methods:  
+#### **LocalStorage** 
+– Brushed up on the concept and methods:  
   - `setItem()`, `getItem()`, `removeItem()`, and `clear()`.  
-#### **DOM Manipulation** – Learned how to manipulate the DOM using JavaScript.  
-#### **Array Methods** – Focused on key methods:  
+#### **DOM Manipulation** 
+– Learned how to manipulate the DOM using JavaScript.  
+#### **Array Methods** 
+– Focused on key methods:  
   - `push()`, `splice()`, `forEach()`, `map()`, and `filter()`.  
-#### **Template Literals** – Used **`${}`** to dynamically insert values into HTML.
+#### **Template Literals** 
+– Used **`${}`** to dynamically insert values into HTML.
 
 ## Outputs
 
