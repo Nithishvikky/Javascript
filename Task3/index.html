@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Gallery Lightbox</title>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/6f8b569eef.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="img-card">
+                <img src="assets/1.jpg">
+                <button class="open">Open</button>
+            </div>
+            <div class="img-card">
+                <img src="assets/2.jpg">
+                <button class="open">Open</button>
+            </div>
+            <div class="img-card">
+                <img src="assets/3.jpg">
+                <button class="open">Open</button>
+            </div>
+            <div class="img-card">
+                <img src="assets/4.jpg">
+                <button class="open">Open</button>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+                <img id="modal-img"/>
+                <button id="next">Next</button>
+                <button id="prev">Prev</button>
+                <button id="close">Close</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
