@@ -14,7 +14,10 @@ function Apicall(){
         document.getElementById("temp").textContent = "Temperature : "+data.main.temp+"°C";
         document.getElementById("hum").textContent = "Humidity : "+data.main.humidity+"%";
     })
-    .catch(error => console.error(error));
+    .catch(error =>{
+        console.error(error);
+        document.getElementById("condition").textContent = "Check the city name..City not found.";
+    });
 }
 function getCityName(){
     if(cityInput.value){
