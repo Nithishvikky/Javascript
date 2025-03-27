@@ -1,0 +1,27 @@
+[
+    {
+      "question" : "Select the inappropriate one.",
+      "options":["Orange","Apple","Laptop","Banana"],
+      "answer":"Laptop"
+    },
+    {
+        "question" : "Which one is bird?",
+        "options":["Human","Lion","Monkey","Parrot"],
+        "answer":"Parrot"
+    },
+    {
+        "question" : "Which year india won champions trophy recently?",
+        "options":["2021","2023","2024","2025"],
+        "answer":"2025"
+    },
+    {
+        "question" : "Who has the most runs in IPL?",
+        "options":["Virat","Warner","Raina","Butler"],
+        "answer":"Virat"
+    },
+    {
+        "question" : "Who is the best bowler of IPL(Tricky)?",
+        "options":["Virat","Bhuvi","Rohit","Head"],
+        "answer":"Bhuvi"
+    }
+]
