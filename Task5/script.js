@@ -44,7 +44,6 @@ function Quiz(){
         container.innerHTML = `
                 <h2>Congratulations!! You completed the quiz...</h2>
                 <p>Your Score is ${mark} out of ${ArrayObject.length}</p>`;
-        
         CurrIndex = 0;
         mark = 0;
     }
