@@ -31,7 +31,8 @@ function AddElement(quizObject){
         <li><input type ="radio" name = "options" value="${quizObject.options[2]}" id="option3"/><label for="option3">${quizObject.options[2]}</label></li>
         <li><input type ="radio" name = "options" value="${quizObject.options[3]}" id="option4"/><label for="option4">${quizObject.options[3]}</label></li>
     </ul>
-    <button onClick="ansCheck()" id="next">Next</button>`;
+    ${CurrIndex==ArrayObject.length-1 ? `<button onClick="ansCheck()" id="next">Submit</button>` : `<button onClick="ansCheck()" id="next">Next</button>`}`;
+    // Ternary operator for the button
 }
 function Quiz(){
     if(CurrIndex<ArrayObject.length){

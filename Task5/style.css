@@ -50,8 +50,12 @@ ul li{
     margin-top: 5px;
     font-size: large;
 }
+input{
+    cursor: pointer;
+}
 ul li label{
     margin-left: 5px;
+    cursor: pointer;
 }
 p{
     margin-top: 8px;
