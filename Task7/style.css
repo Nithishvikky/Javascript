@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chatBox{
+    width: 400px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+.inputArea{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+#inputBox{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+#sendBtn{
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.content {
+    position: relative;
+    padding: 10px;
+    height: 420px;
+    overflow-y: auto; 
+}
+.message{
+    position: relative;
+    border: 1px solid black;
+    width: fit-content;
+    max-width: 70%; /* Prevents overly long messages */
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+.userMessage {
+    margin-left: auto; /*Pushes it to the right*/
+    margin-right: 20px; /*Adds some spacing from the edge*/
+    margin-top: 15px;
+    text-align: right;
+}
+
+.botMessage {
+    margin-left: 20px; /* Pushes it to the left */
+    margin-top: 15px;
+    text-align: left;
+}
+
+.message p{
+    margin: 0;
+    flex-grow: 1;
+}
+.message span{
+    font-size: x-small;
+    margin-left: 10px;
+    color: gray;
+}
+
+.botType{
+    position: relative;
+    margin-left: 20px; 
+    margin-top: 15px;
+    text-align: left;
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
