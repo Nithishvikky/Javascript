@@ -61,10 +61,14 @@ function place(n){
            document.getElementById("inputbox").value = "";
         }
         else if(n!=="="){
-            if(temp){
-                res = Number(temp);
+
+            if(res>0){//res =10
+                calculate(res,Number(temp),op);
             }
-            op = n;
+            else if(temp){
+                res = Number(temp); 
+            }
+            op = n; 
             document.getElementById("inputbox").value = op;
         }
         else{
