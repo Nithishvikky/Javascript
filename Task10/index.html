@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full-featured eCommerce Shopping Car</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Nithish</h1>
+        <input type="text" placeholder="Search for the product" id="search"/>
+        <span id="cart-logo">
+            <h3 id="cart-title">Cart</h3>
+            <label id="cart-count">0</label>
+        </span>
+    </header>
+    <div class="main">
+        <div class="left">
+            <div class="products"></div>
+        </div>
+        <div class="right">
+           <h1>Filter by </h1>
+           <ul class="filter-list">
+                <li>All</li>
+                <li>Electronics</li>
+                <li>Clothing</li>
+                <li>Accessories</li>
+           </ul>
+        </div>
+    </div>
+    <div class="cart-modal hidden">
+        <div class="cart-modal-content">
+          <span class="close-cart">&times;</span>
+          <h2>Your Cart</h2>
+          <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody class="cart-items"></tbody>
+        </table>
+          <div class="cart-total">
+            <h3>Total: ₹ <span id="cart-total-price">0</span></h3>
+            <button class="checkout-btn">Checkout</button>
+          </div>
+        </div>
+      </div>
+      
+      <script src="main.js"></script>
+      
+</body>
+</html>
